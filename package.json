@@ -4,9 +4,6 @@
   "description": "Blog powered by Gatsby and Markdown",
   "version": "0.1.0",
   "author": "7eet",
-  "bugs": {
-    "url": ""
-  },
   "dependencies": {
     "@fontsource/inter": "^4.5.0",
     "@fontsource/rubik": "^4.5.0",
