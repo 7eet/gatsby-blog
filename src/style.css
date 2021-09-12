@@ -77,7 +77,7 @@ html {
   -moz-osx-font-smoothing: grayscale;
 }
 
-body { font-family: "Inter"; background-color: hsl(222, 13.5%, 14.5%); color: #61dafb; }
+body { font-family: "Inter"; background-color: #ffffff; color: hsl(222, 13.5%, 14.5%) }
 
 footer {
   padding: var(--spacing-6) var(--spacing-0);
@@ -116,7 +116,6 @@ h6 {
 h1 {
   font-weight: var(--fontWeight-black);
   font-size: var(--fontSize-6);
-  color: var(--color-heading-black);
 }
 
 h2 {
@@ -328,10 +327,10 @@ a:focus {
   }
 }
 
-.main-heading, article header h2 a span  {
-  color: #61dafb;
+.main-heading, article header h2 a span, .article header h1  {
+  color: hsl(222, 13.5%, 14.5%);
 }
 
 p {
-  color: #fafafa;
+  color: hsl(222, 13.5%, 14.5%)
 }
